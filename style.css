@@ -1,0 +1,88 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+	background-color: #D1D1D1;
+	
+}
+
+li a {
+	font-weight: 500;
+	margin: 3px;
+	font-size: 16px;
+	color: #000000;
+
+}
+
+li a:hover {
+	text-decoration: underline;
+}
+
+.navbar .fa {
+	font-size: 26px;
+	color: #000000;
+	outline-color: #000000;
+}
+
+.navbar-toggler-icon {
+	color: #000000;
+}
+
+main {
+	background-color: #6C8CB2;
+	font-family: 'Dosis', sans-serif;
+}
+
+
+.top-p {
+	line-height: 1.75;
+}
+
+#bootstrap-overides .card-body {
+	background-color: #D1D1D1;
+}
+
+#bootstrap-overides .card-header {
+	background-color: #8EA6C4;
+}
+
+#bootstrap-overides .btn {
+	border-color: rgba(100, 203, 240, 0.54);
+	
+
+}
+
+#bootstrap-overides .btn:hover {
+	background-color: #D1D1D1
+}
+
+@media only screen and (min-width:  768px) {
+	.top-p { width: 90%; 
+			padding-left: 25%;
+			line-height: 1.75;
+			
+	 }
+}
+
+@media only screen and (min-width: 992px) {
+	.top-p { width: 85%;
+			padding-left: 30%;
+			padding-top: 5%;
+			line-height: 2.0;
+			
+
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.top-p { width: 75%;
+			padding-left: 40%;
+			padding-top: 10%;
+			line-height: 2.0;
+			
+
+	}
+}
+
